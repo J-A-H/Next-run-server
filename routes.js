@@ -16,13 +16,13 @@ var pusher = new Pusher({
   encrypted: true
 });
 
-const Chatkit = require("@pusher/chatkit-server");
+// const Chatkit = require("@pusher/chatkit-server");
 
-const chatkit = new Chatkit.default({
-  instanceLocator: "v1:us1:a397f28d-1285-488b-97bb-070321f261bf",
-  key:
-    "83bb6462-159b-4684-b510-f50386e4bf20:Zlblmj8vDCsXSvfSH0ntmJx+x5PoD9DLwV5Bar7DsSk="
-});
+// const chatkit = new Chatkit.default({
+//   instanceLocator: "v1:us1:a397f28d-1285-488b-97bb-070321f261bf",
+//   key:
+//     "83bb6462-159b-4684-b510-f50386e4bf20:Zlblmj8vDCsXSvfSH0ntmJx+x5PoD9DLwV5Bar7DsSk="
+// });
 
 const globalPlayersCount = {};
 
